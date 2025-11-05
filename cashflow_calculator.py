@@ -1055,7 +1055,9 @@ fig_bars.update_layout(
     plot_bgcolor='rgba(248,249,250,0.5)'
 )
 
+
 st.plotly_chart(fig_bars, use_container_width=True)
+st.markdown('<p style="margin-top: -40px; font-size: 13px; color: gray;">⬆️ 💡 Chart note: Costs shown as negative for visual contrast with revenue</p>', unsafe_allow_html=True)
 
 # --------------------------
 # DETAILED MODE: Display Formulas
