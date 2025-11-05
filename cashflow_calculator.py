@@ -388,7 +388,7 @@ st.markdown("""
     }
     
     .header-container {
-        margin-top: -200px !important;
+        margin-top: -50px !important;
         margin-bottom: 0px;
         padding: 0;
     }
