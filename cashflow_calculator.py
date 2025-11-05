@@ -425,7 +425,7 @@ st.markdown("""
         padding: 8px 12px;
         margin: 5px 0;
         border-radius: 3px;
-        font-size: 13px;
+        font-size: 14px;
     }
     
     /* Hide download button and sort options in dataframe */
@@ -1057,7 +1057,7 @@ fig_bars.update_layout(
 
 
 st.plotly_chart(fig_bars, use_container_width=True)
-st.markdown('<p style="margin-top: -40px; font-size: 13px; color: gray;">⬆️ 💡 Chart note: Costs shown as negative for visual contrast with revenue</p>', unsafe_allow_html=True)
+st.markdown('<p style="margin-top: -40px; font-size: 14px; color: gray;">⬆️ 💡 Chart note: Costs shown as negative for visual contrast with revenue</p>', unsafe_allow_html=True)
 
 # --------------------------
 # DETAILED MODE: Display Formulas
@@ -1209,7 +1209,7 @@ if SHOW_WARNING_EXPORT:
 # Buy Me a Coffee
 st.markdown("""
 <div style="text-align: center; padding: 20px; background: #f8f9fa; border-radius: 5px; margin: 20px 0;">
-    <p style="margin: 0 0 10px 0; font-size: 14px;">☕ <strong> Support this project and future work </strong></p>
+    <p style="margin: 0 0 10px 0; font-size: 16px;">☕ <strong> Support this project and future work </strong></p>
     <a href="https://www.buymeacoffee.com/flourishingperspectivehub" target="_blank" rel="noopener">
         <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px;">
     </a>
