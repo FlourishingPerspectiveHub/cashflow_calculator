@@ -383,8 +383,8 @@ st.markdown("""
 
     /* Control sidebar width */
     [data-testid="stSidebar"] {
-        min-width: 300px;
-        max-width: 600px;
+        min-width: 350px;
+        max-width: 500px;
     }
     
     .header-container {
