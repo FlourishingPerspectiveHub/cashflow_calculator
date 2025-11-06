@@ -618,7 +618,7 @@ with st.sidebar:
                 )
                 
                 if st.session_state.custom_mode == "adjustments":
-                    st.info("ℹ️ Adjustments: **(Original × %) + Fixed $**")
+                    st.info("ℹ️ Adjustments: **(Original × %) + Fixed $/month**")
                     
                     st.caption("**% Adjustment**")
                     rev_pct = st.number_input("Revenue %", -200.0, 200.0, 0.0, 5.0, key="custom_rev_pct",
@@ -675,10 +675,11 @@ with st.sidebar:
                                               1, hist_count_temp, hist_count_temp, 1)
                     
                 
-                st.info("ℹ️ Forecast: **Method calculation + Fixed $/month**")
-                # st.caption("**Fixed $/month adjustment** *(applied to forecasted values)*")
-                flat_rev = st.number_input("Adjust Revenue", -500000, 500000, 0, 500, key="fc_flat_rev")
-                flat_cost = st.number_input("Adjust Cost", -500000, 500000, 0, 500, key="fc_flat_cost")
+
+                st.info("ℹ️  Forecast: **Method calculation, then Adjustment ($/month) applied**")
+
+                flat_rev = st.number_input("Revenue Adjustment ($/month)", -500000, 500000, 0, 500, key="fc_flat_rev")
+                flat_cost = st.number_input("Cost Adjustment ($/month)", -500000, 500000, 0, 500, key="fc_flat_cost")
         else:
             forecast_months = 0
             forecast_method = "Linear Trend"
