@@ -542,11 +542,11 @@ with st.sidebar:
     else:  # Input Your Data
 
 
-        input_method = st.radio("Input method", ["Edit or Paste into Table"], 
+        input_method = st.radio("Input method", ["Paste Data from Spreadsheet"], 
                        horizontal=False, label_visibility="collapsed",
                        help="Choose how to enter your data")
         
-        if input_method == "Edit or Paste into Table":
+        if input_method == "Paste Data from Spreadsheet":
             if st.session_state.edit_mode_data is None:
                 st.session_state.edit_mode_data = pd.DataFrame({
                     'Month': list(range(1, 37)),
@@ -1123,7 +1123,7 @@ st.markdown('<p class="section-header">Export Data</p>', unsafe_allow_html=True)
 
 
 
-st.info("💡 **Copy your data:** Select the table below, copy (Ctrl+C or Cmd+C), and paste into Excel, Google Sheets, or any spreadsheet application.")
+st.info("💡 Download CSV or copy the table (Ctrl+C or Cmd+C) for use in spreadsheet applications")
 
 # Prepare export dataframe with ACTIVE scenarios only
 df_all_scenarios = pd.DataFrame()
