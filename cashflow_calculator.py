@@ -706,15 +706,10 @@ with st.sidebar:
     </div>
     <div class="resource-link">
         📘 <a href="https://www.the-founders-corner.com/p/a-guide-to-small-business-cash-flow" target="_blank" rel="noopener">
-        Founder's Corner: Guide to Cash Flow
+        The Founder's Corner: Guide to Cash Flow
         </a>
     </div>                              
-                
-    <div class="resource-link">
-        🧾 <a href="https://m1.com/knowledge-bank/budgeting-for-freelancers-effective-strategies-for-variable-income/" target="_blank" rel="noopener">
-            M1 Finance - Budgeting for Freelancers: Effective Strategies for Variable Income
-        </a>
-    </div>
+
    
                 
     """, unsafe_allow_html=True)
@@ -1093,7 +1088,8 @@ st.markdown('<p class="section-header">🧭 EXPLORE MORE</p>', unsafe_allow_html
 
 st.markdown("""
 **⚙️ Tools & Skills**
-- [Ruul Blog](https://ruul.io/blog/strategies-to-improve-cash-flow-for-freelancers) - Strategies to improve cash flow for freelancers
+- [Strategies to improve cash flow for freelancers](https://ruul.io/blog/strategies-to-improve-cash-flow-for-freelancers) (Source: Blog from Ruul)
+- [Budgeting for Freelancers: Effective Strategies for Variable Income](https://m1.com/knowledge-bank/budgeting-for-freelancers-effective-strategies-for-variable-income/) (Source: Knowledge Bank from M1 Finance)
 - [How Finance Works: The HBR Guide to Thinking Smart About the Numbers](https://a.co/d/hQDOIl3) - Practical guide to finance, valuation, and risk by Mihir Desai
 - [TinyWow](https://tinywow.com/) - Tools for PDFs, images, writing, and videos
 - [LearningSEO.io](https://learningseo.io/) - SEO roadmap with free resources & tools
