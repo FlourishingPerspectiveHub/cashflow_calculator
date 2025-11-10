@@ -1,4 +1,4 @@
-# cashflow_calculator
+# Cash Flow Calculator
 cash flow calculator with scenario planning and forecasting for small businesses
 
 ## Features
@@ -11,7 +11,7 @@ cash flow calculator with scenario planning and forecasting for small businesses
 
 ## Live Demo
 
-Coming soon!
+[Try it here](https://cashflowcalc.streamlit.app/)
 
 ## Run Locally
 ```bash

@@ -50,8 +50,8 @@ DETAILED_MODE = False  # Set to True to show formulas and projected values in ex
 SHOW_WARNING_INSTRUCTIONS = True
 SHOW_WARNING_EXPORT = True
 
-WARNING_INSTRUCTIONS = "💡 Educational Tool - Estimates only; verify all numbers and consult professionals before making decisions."
-WARNING_EXPORT = "⚠️ IMPORTANT: This tool provides educational estimates with no guarantee of accuracy. Results may contain errors. Always verify all calculations independently and consult qualified professionals before making financial decisions."
+WARNING_INSTRUCTIONS = "💡 Educational tool — estimates only; always verify calculations and consult professionals before making decisions."
+WARNING_EXPORT = "⚠️ IMPORTANT: This tool provides educational estimates only, with no guarantee of accuracy. Results are not financial advice and may contain errors. Always verify all calculations independently and consult qualified professionals before making financial decisions."
 
 
 
@@ -719,16 +719,6 @@ with st.sidebar:
                 
     """, unsafe_allow_html=True)
     
-    st.markdown("---")
-    
-    # Feedback/Help Link
-    st.markdown("""
-    <div style="background: #e3f2fd; padding: 10px; border-radius: 5px; text-align: center;">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7E0Vg3lD5SzrCbcJ7INpaMVX-Ad3WdSlgmiY-G8wXyBNymw/viewform?usp=header" target="_blank" rel="noopener" style="text-decoration: none; color: #1565c0; font-weight: 600;">
-            👋 Have Feedback or Need Expert Help?
-        </a>
-    </div>
-    """, unsafe_allow_html=True)
     
     st.markdown("---")
 
@@ -1102,19 +1092,24 @@ st.markdown(f"""
 st.markdown('<p class="section-header">🧭 EXPLORE MORE</p>', unsafe_allow_html=True)
 
 st.markdown("""
-**📊 Productivity & Planning**
+**⚙️ Tools & Skills**
 - [Ruul Blog](https://ruul.io/blog/strategies-to-improve-cash-flow-for-freelancers) - Strategies to improve cash flow for freelancers
-- [How Finance Works: The HBR Guide to Thinking Smart About the Numbers](http://www.mihirdesai.org/all-publications/https/wwwamazoncom/how-finance-works-thinking-numbers/dp/1633696707/refsr12sbooksieutf8qid1537886363sr1-2) - Practical guide to finance, valuation, and risk by Mihir Desai
+- [How Finance Works: The HBR Guide to Thinking Smart About the Numbers](https://a.co/d/hQDOIl3) - Practical guide to finance, valuation, and risk by Mihir Desai
 - [TinyWow](https://tinywow.com/) - Tools for PDFs, images, writing, and videos
 - [LearningSEO.io](https://learningseo.io/) - SEO roadmap with free resources & tools
 
-**💡 Learning & Inspiration**
-- [J.P. Morgan Eye on the Market](https://am.jpmorgan.com/us/en/asset-management/institutional/insights/market-insights/eye-on-the-market/) - Market & economic commentary  
+**🚀 Learn & Grow**
+- [Founders Content](https://foundercontent.com/all/) - Curated list of resources from founders
 - [The Side Hustle Show Podcast](https://www.sidehustlenation.com/side-hustle-show/) - Nick Loper's podcast on starting and growing side hustles
 - [Guy Raz](https://www.guyraz.com/) - Host of “How I Built This” & other podcasts, sharing insights and lessons from entrepreneurs and innovators
+- [Odd Lots](https://www.bloomberg.com/oddlots) - Bloomberg podcast exploring finance, markets, and economic stories with hosts Joe Weisenthal and Tracy Alloway
+
+**🌍 Inspiration & Impact**
 - [kottke.org](https://kottke.org/) - Long-running site (founded 1998) featuring Jason Kottke's curated posts on art, technology, science, design, and culture
 - [Unbound](https://www.unbound.org/) - Nonprofit supporting families and communities on their self-directed paths out of poverty
-- [Positive News](https://www.positive.news/) - Constructive journalism
+- [Positive News](https://www.positive.news/) - Constructive journalism focused on positive global news
+- [Our World in Data](https://ourworldindata.org/) - Data insights and visualizations on major global issues
+                        
 """)
 # --------------------------
 # Export Data (Copy/Paste) - ACTIVE SCENARIOS
@@ -1207,6 +1202,19 @@ st.markdown("---")
 if SHOW_WARNING_EXPORT:
     st.markdown(f'<div class="warning-box">{WARNING_EXPORT}</div>', unsafe_allow_html=True)
 
+# Feeedback
+st.markdown("---")
+
+st.markdown("""
+<div style="background: #e3f2fd; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center;">
+    <p style="color: #1565c0; font-size: 16px; font-weight: 600; margin: 0 0 12px 0;">✨ Share Feedback or Request Assistance</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7E0Vg3lD5SzrCbcJ7INpaMVX-Ad3WdSlgmiY-G8wXyBNymw/viewform?usp=header" target="_blank" rel="noopener" style="display: inline-block; background: #1565c0; color: white; padding: 10px 25px; border-radius: 5px; text-decoration: none; font-weight: 600; font-size: 13px;">
+        Contact Us
+    </a>
+</div>
+""", unsafe_allow_html=True)
+
+
 # Buy Me a Coffee
 st.markdown("""
 <div style="text-align: center; padding: 20px; background: #f8f9fa; border-radius: 5px; margin: 20px 0;">
@@ -1238,8 +1246,8 @@ with st.expander("⚖️ Legal & Privacy Information"):
     **Important:** This tool is hosted on Streamlit Cloud. Your inputs are processed on their servers but are not stored by us after your session ends. For information on Streamlit's data handling, see their Privacy Policy.
     
     **Recommendations:**
-    - Do not enter sensitive personal information
-    - Use representative numbers for planning purposes
+    - Do not enter sensitive personal information.
+    - Use representative numbers for planning purposes.
     
     **Forms & Feedback:** Submissions via Google Forms are stored by Google and are subject to Google's privacy policy.
     
@@ -1249,9 +1257,9 @@ with st.expander("⚖️ Legal & Privacy Information"):
     ### External Links, Affiliates & Advertising
     
     This site may contain:
-    - Affiliate links to third-party services (we may earn commission on purchases)
-    - Advertising or sponsored content
-    - Links to resources we recommend
+    - Affiliate links to third-party services (we may earn commission on purchases).
+    - Advertising or sponsored content.
+    - Links to resources we recommend.
     
     **Disclosure**: We only recommend products or services we believe are valuable. Our recommendations are independent of any compensation received. 
     
@@ -1266,9 +1274,9 @@ with st.expander("⚖️ Legal & Privacy Information"):
     By using this tool, you agree to these terms:
     
     **Acceptable Use**:
-    - Use this tool for lawful purposes only
-    - Do not attempt to reverse engineer, hack, or exploit the application
-    - Do not use automated tools to scrape or abuse the service
+    - Use this tool for lawful purposes only.
+    - Do not attempt to reverse engineer, hack, or exploit the application.
+    - Do not use automated tools to scrape or abuse the service.
     
     **Limitation of Liability**: To the maximum extent permitted by law, we are not liable for any damages arising from your use of this tool, including but not limited to financial losses, business interruptions, or data loss.
     
@@ -1278,4 +1286,4 @@ with st.expander("⚖️ Legal & Privacy Information"):
     """)
 
 st.markdown("---")
-st.caption("💰 Cash Flow Calculator | Free educational tool - verify all calculations")
+st.caption("💰 Cash Flow Calculator | Free educational tool — explore, plan, and learn. Always verify all results.")
