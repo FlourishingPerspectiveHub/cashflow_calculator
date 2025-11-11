@@ -39,7 +39,7 @@ def check_password():
         st.stop()
 
 # Uncomment to enable password protection:
-check_password()
+# check_password()
 
 # ============================================================================
 # CONFIGURATION FLAGS
@@ -1282,4 +1282,4 @@ with st.expander("⚖️ Legal & Privacy Information"):
     """)
 
 st.markdown("---")
-st.caption("💰 Cash Flow Calculator | Free educational tool — explore, plan, and learn. Always verify all results.")
+st.caption("💰 Cash Flow Calculator | Free educational tool — explore, plan, and learn. Always verify all calculations.")
