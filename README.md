@@ -11,7 +11,9 @@ cash flow calculator with scenario planning and forecasting for small businesses
 
 ## Live Demo
 
-[Try it here](https://cashflowcalc.streamlit.app/)
+<a href="https://cashflowcalc.streamlit.app/" target="_blank" rel="noopener noreferrer">🚀 Try it here</a>
+
+
 
 ## Run Locally
 ```bash
