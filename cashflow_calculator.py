@@ -346,7 +346,7 @@ if 'show_forecast' not in st.session_state:
 # Page Config
 # --------------------------
 st.set_page_config(
-    page_title="Cash Flow Calculator | Free Business Planning & Scenario Tool",
+    page_title="Cash Flow Calculator",
     page_icon="💰",
     layout="wide",
     initial_sidebar_state="expanded",
